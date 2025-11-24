@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Untamed | India's Wilderness, Reimagined</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              jungle: {
+                50: '#f4f6f4',
+                100: '#e3e8e3',
+                200: '#c5d1c5',
+                300: '#9ab09b',
+                400: '#728d74',
+                500: '#537156',
+                600: '#3f5842',
+                700: '#344737',
+                800: '#2c392e',
+                900: '#253027', // Deepest green
+                950: '#121a14',
+              },
+              earth: {
+                100: '#f5f2ee',
+                200: '#e8e2d9',
+                300: '#d5cbbd',
+                400: '#bea692',
+                500: '#aa8d76',
+                600: '#90735f',
+                700: '#755b4b',
+                800: '#614d41',
+                900: '#504037',
+              }
+            },
+            fontFamily: {
+              serif: ['"Cormorant Garamond"', 'serif'],
+              sans: ['"Montserrat"', 'sans-serif'],
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 1s ease-out forwards',
+              'slow-pan': 'slowPan 20s linear infinite alternate',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              slowPan: {
+                '0%': { objectPosition: 'center' },
+                '100%': { objectPosition: 'top' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar for Webkit */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #121a14; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #3f5842; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #537156; 
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      .glass-panel {
+        background: rgba(18, 26, 20, 0.75);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-jungle-950 text-earth-100 antialiased selection:bg-jungle-400 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
