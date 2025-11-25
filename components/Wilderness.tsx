@@ -23,9 +23,10 @@ export const Wilderness: React.FC = () => {
         </RevealOnScroll>
         <RevealOnScroll delay={200}>
           <p className="font-sans text-xl text-earth-200 font-light leading-relaxed drop-shadow-md mb-12">
-            Step into a world where nature reigns supreme. Whether drifting on the silent backwaters of Kabini 
-            or tracking big cats through the ancient ruins of Ranthambore, our safaris are led by 
-            master naturalists who interpret the language of the wild for you.
+            Whether you're drifting on Kabini's silent backwaters in search of elusive panthers, tracking 
+            tigers through Ranthambore's storied ruins, or witnessing the armored grace of one-horned rhinos 
+            in Kaziranga's endless grasslands—each journey is led by master naturalists who interpret the 
+            language of the wild. This is where you stop observing and start belonging.
           </p>
         </RevealOnScroll>
         <RevealOnScroll delay={400}>
