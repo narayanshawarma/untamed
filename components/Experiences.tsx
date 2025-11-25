@@ -27,7 +27,7 @@ export const Experiences: React.FC = () => {
           <p className="font-sans text-lg md:text-2xl text-earth-200 font-light leading-relaxed drop-shadow-lg mb-12">
             True luxury is participation. Walk alongside tribal guardians, forage for ancient ingredients, 
             and contribute to the conservation of the land you tread. 
-            This is not just a visit; it is a belonging.
+            It is a return to nature. It is a deep sense of belonging.
           </p>
         </RevealOnScroll>
         

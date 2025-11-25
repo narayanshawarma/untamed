@@ -8,7 +8,7 @@ export const Philosophy: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         <RevealOnScroll>
           <h2 className="font-serif text-4xl md:text-5xl text-earth-300 mb-12 leading-tight">
-            Beyond luxury, beyond tourism—<br />
+            An intimate alliance with nature—<br />
             <span className="italic text-jungle-300">a commitment to the wild.</span>
           </h2>
         </RevealOnScroll>
@@ -17,10 +17,9 @@ export const Philosophy: React.FC = () => {
           <RevealOnScroll delay={200}>
             <div className="space-y-6">
               <p>
-                We believe in low-impact, high-immersion travel. 
-                True luxury isn't found in gold-plated faucets or air-conditioned bubbles, 
-                but in the pristine silence of a forest at dawn, the raw scent of wet earth, 
-                and the privilege of witnessing nature entirely undisturbed.
+                We champion low-impact, high-immersion travel. 
+                True luxury defines itself through the pristine silence of a forest at dawn, 
+                the raw scent of wet earth, and the privilege of witnessing nature entirely undisturbed.
               </p>
             </div>
           </RevealOnScroll>

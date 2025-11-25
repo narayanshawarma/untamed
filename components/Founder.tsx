@@ -36,12 +36,12 @@ export const Founder: React.FC = () => {
              <RevealOnScroll delay={400}>
                <div className="space-y-6 font-sans text-earth-300 font-light leading-7 text-lg">
                  <p>
-                   My journey didn't begin in a boardroom, but in the mist-laden corridors of Kabini Nagarhole. 
+                   My journey began in the mist-laden corridors of Kabini Nagarhole. 
                    It was a chance encounter with a Black Panther—a shadow moving within shadows—that ignited a lifelong reverence for the wild.
                  </p>
                  <p>
-                   "Untamed" was born from a simple, fierce passion: to share the Indian wilderness as it truly is—raw, 
-                   majestic, and fragile. We created this platform not for the masses, but for the seekers who want to 
+                   "Untamed" embodies a simple, fierce passion: to share the Indian wilderness as it truly is—raw, 
+                   majestic, and fragile. We created this platform exclusively for the seekers who want to 
                    protect what they explore. This is my love letter to the wild.
                  </p>
                </div>

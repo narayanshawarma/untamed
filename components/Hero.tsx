@@ -71,7 +71,7 @@ export const Hero: React.FC = () => {
           </h1>
           <div className="w-24 h-[1px] bg-earth-400 mx-auto mb-6 opacity-60"></div>
           <p className="font-sans text-lg md:text-xl lg:text-2xl font-light tracking-widest text-earth-200 uppercase drop-shadow-md">
-            In Service of India’s Timeless Wilderness
+            India's Wilderness, Reimagined Responsibly.
           </p>
         </div>
       </div>

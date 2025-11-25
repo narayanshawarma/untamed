@@ -26,7 +26,7 @@ export const Sanctuaries: React.FC = () => {
           
           <RevealOnScroll delay={200}>
             <p className="font-sans text-lg md:text-2xl text-earth-200 font-light leading-relaxed drop-shadow-lg mb-10">
-              We don't offer just hotels; we open gates to hidden realms. 
+              We open gates to hidden realms. 
               We curate the rarest of the rare—sanctuaries crafted for the curious, 
               where you live in the quiet, mystical company of endangered magical creatures. 
               Under canopies untouched by time, luxury is not built; it is felt.

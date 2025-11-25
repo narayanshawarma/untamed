@@ -23,7 +23,7 @@ export const Wilderness: React.FC = () => {
         </RevealOnScroll>
         <RevealOnScroll delay={200}>
           <p className="font-sans text-xl text-earth-200 font-light leading-relaxed drop-shadow-md mb-12">
-            This is not a chase; it is an immersion. Whether drifting on the silent backwaters of Kabini 
+            Step into a world where nature reigns supreme. Whether drifting on the silent backwaters of Kabini 
             or tracking big cats through the ancient ruins of Ranthambore, our safaris are led by 
             master naturalists who interpret the language of the wild for you.
           </p>
