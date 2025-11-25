@@ -10,7 +10,7 @@ export const Sanctuaries: React.FC = () => {
         <img 
           src="https://yellowzebrasafaris.com/media/wsdldt5r/exterior-room-erebero-hills-bwindi-impenetrable-forest-uganda.jpg?width=2048&height=1024&format=jpg&v=1db472d9f32d250" 
           alt="Exclusive Wilderness Sanctuary" 
-          className="w-full h-full object-cover opacity-60"
+          className="w-full h-full object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-jungle-950/80 via-transparent to-jungle-950/90"></div>
       </div>

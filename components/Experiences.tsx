@@ -4,16 +4,16 @@ import { RevealOnScroll } from './RevealOnScroll';
 
 export const Experiences: React.FC = () => {
   return (
-    <section className="relative py-32 md:py-48 bg-jungle-950 text-earth-100 overflow-hidden flex items-center justify-center">
+    <section className="relative py-48 md:py-64 min-h-[85vh] bg-stone-900 text-earth-100 overflow-hidden flex items-center justify-center">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="https://worldbank.scene7.com/is/image/worldbankprod/CBST-group-by-Caio-Palazzo_resized-1-?wid=780&hei=439&qlt=85,0&resMode=sharp" 
+          src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/02/18/15/elephants1.jpg?quality=75&width=1368&auto=webp" 
           alt="Authentic Jungle Experience" 
-          className="w-full h-full object-cover opacity-50" 
+          className="w-full h-full object-cover opacity-70" 
         />
         {/* Gradient overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-b from-jungle-950 via-jungle-950/60 to-jungle-950"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-stone-900/95 via-stone-900/70 to-stone-900/95"></div>
       </div>
 
       <div className="relative z-10 container mx-auto px-6 md:px-12 text-center max-w-4xl">
