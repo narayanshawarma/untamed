@@ -49,7 +49,7 @@ export const Founder: React.FC = () => {
              
              <RevealOnScroll delay={600}>
                <div className="mt-10">
-                 <p className="font-serif italic text-2xl text-earth-400 mb-8">- Apoorv Mishra</p>
+                 <p className="font-serif italic text-2xl text-earth-400 mb-8">- Founder</p>
                  <span className="inline-block px-4 py-1 border border-jungle-700 rounded-full text-xs tracking-[0.2em] text-jungle-400 uppercase">
                    The Vision
                  </span>
